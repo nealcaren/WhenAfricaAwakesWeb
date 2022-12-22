@@ -1,0 +1,118 @@
+
+#quarto-sidebar, #quarto-appendix.default {
+  font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+  background-color: #fffff8;
+}
+
+
+
+#search-input {
+  font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+  background-color: #fffff8;
+}
+
+* {
+  font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+  background-color: #fffff8;
+  color: #111;
+}
+
+.footnote-reference brackets {
+  font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+  font-size: 0.75em;
+}
+
+.brackets {
+  font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+  font-size: 0.75em;
+}
+
+
+h1, h2, h3 {
+    font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+    text-align: left;
+}
+
+p {
+    text-align: left;
+}
+
+body {
+    margin-left: auto;
+/*    font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif; */
+    background-color: #fffff8;
+    color: #111;
+    max-width: 1400px;
+    text-align: left;
+    counter-reset: sidenote-counter;
+}
+table, th, td, tr {
+  border: 0em #fffff8;
+  border-bottom: 0em #fffff8;
+  border-style : hidden!important;
+}
+
+th, td {
+  padding-bottom: 0em;
+}
+
+p.drop-cap {
+  text-indent: 0em;
+}
+p.drop-cap:first-letter
+{
+  float: left;
+  background-color: #111;
+  color: #fffff8;
+  margin: 0.15em 0.15em 0.15em 0.15em;
+  font-size: 450%;
+  line-height:0.85em;
+}
+.x-ebookmaker  p.drop-cap:first-letter
+{
+  float: none;
+  margin: 0;
+  font-size: 100%;
+}
+
+.poem {
+    padding-left: 2em;
+    text-indent: -2em;
+    margin-bottom: 0rem;
+}
+.poem-indent {
+    padding-left: 2em;
+    text-indent: -1em;
+    margin-bottom: 0rem;
+}
+
+.poem-big-indent {
+    padding-left: 3em;
+    margin-bottom: 0rem;
+}
+.poem-bigger-indent {
+    padding-left: 4em;
+    margin-bottom: 0rem;
+}
+.poem-biggest-indent {
+    padding-left: 5em;
+    margin-bottom: 0rem;
+}
+
+.dot-table td {
+    max-width:200px;
+    overflow:hidden;
+    white-space:nowrap;
+}
+.dot-table td:first-child:after {
+    content:" . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . "
+}
+
+.col-table td  {
+  vertical-align: top;
+}
+
+@media print {
+  background-color: #FFFFFF;
+  width: 55%;
+}

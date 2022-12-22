@@ -1,0 +1,17 @@
+---
+title: "When Africa Awakes" 
+subtitle: "The \"Inside Story\" of the Stirrings and Strivings the New Negro the Western World"
+title-block-header: ""
+---
+::: {.content-hidden when-format="html"}
+
+# When Africa Awakes: The \"Inside Story\" of the Stirrings and Strivings the New Negro the Western World {.unnumbered}
+:::
+
+<h3>Hubert H. Harrison</h3>
+
+![](book_cover.png)
+
+Originally published by The Porro Press, 1920. 
+
+This 2023 reprint is transcribed from the HathiTrust Digital Library [copy](https://babel.hathitrust.org/cgi/pt?id=iau.31858033700760&view=1up&seq=5) by [Neal Caren](https://neal.caren.org).

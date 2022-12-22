@@ -1,0 +1,33 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "When Africa Awakes"
+  sidebar:
+    style: docked
+    title: ""
+    contents:
+      - section: "FRONT MATTER"
+        contents:
+          - text: "COVER"
+            file: index.qmd
+          - 00-Preface.qmd
+          - 00-Introductory.qmd
+      - section: "CHAPTERS"
+        contents: 
+          - 01-Beginnings.qmd
+          - 02-Democracy.qmd
+          - 03-Negro_and_War.qmd
+          - 04-New_Politics.qmd
+          - 05-Problems_of_Leadership.qmd
+          - 06-New_Race_Consciousness.qmd
+          - 07-Our_International_Consciousness.qmd
+          - 08-Education_and_the_Race.qmd
+          - 09-A_Few_Books.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: myfilecss.css
+    toc: true
